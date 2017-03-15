@@ -1,9 +1,11 @@
 var Metalsmith  = require('metalsmith');
+var cleanCSS    = require('metalsmith-clean-css');
 var concat      = require('metalsmith-concat');
 var drafts      = require('metalsmith-drafts');
 var layouts     = require('metalsmith-layouts');
 var markdown    = require('metalsmith-markdown');
 var permalinks  = require('metalsmith-permalinks');
+var postcss     = require('metalsmith-postcss');
 
 Metalsmith(__dirname)
   .metadata({
@@ -23,7 +25,18 @@ Metalsmith(__dirname)
               'assets/css/utilities/*.css', 
               'assets/css/shame.css'
             ],
-    output: 'assets/styles.css'
+    output: './src/assets/styles.css'
+  }))
+  .use(postcss({
+    plugins: {
+      'postcss-cssnext': {}
+    }
+  }))
+  .use(cleanCSS({
+    files: './src/assets/styles.css',
+    cleanCSS: {
+      rebase: true
+    }
   }))
   .source('./src')
   .destination('./dist')
