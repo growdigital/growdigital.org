@@ -15,7 +15,7 @@ Metalsmith(__dirname)
     url: "https://growdigital.org/"
   })
   .source('./src')
-  .destination('./dist')
+  .destination('./build')
   .clean(true)
   // The order is important
   .use(concat({
