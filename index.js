@@ -43,13 +43,22 @@ Metalsmith(__dirname)
     }
   }))
   .use(drafts())
-  .use(collections({
-    posts: {
-      pattern: '*.md',
-      sortBy: 'date',
-      reverse: true
-    }
-  }))
+  // .use(collections({
+  //   posts: {
+  //     pattern: '*.md',
+  //     sortBy: 'date',
+  //     reverse: true
+  //   }
+  // }))
+  // .use(tags({
+  //   handle: 'tags',
+  //   path:'tag/:tag.html',
+  //   layout:'/layouts/tag.hbt',
+  //   sortBy: 'date',
+  //   reverse: true,
+  //   skipMetadata: false,
+  //   slug: {mode: 'rfc3986'}
+  // }))
   .use(markdown())
   .use(permalinks({
     pattern: './posts/:title'
