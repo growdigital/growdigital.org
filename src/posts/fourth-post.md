@@ -1,7 +1,7 @@
 ---
 title: My Fourth Post
 date: 2012-12-07
-layout: post.hbs
+layout: post.hbt
 collections: posts
 draft: true
 ---
