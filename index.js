@@ -7,6 +7,7 @@ var layouts     = require('metalsmith-layouts');
 var markdown    = require('metalsmith-markdown');
 var permalinks  = require('metalsmith-permalinks');
 var postcss     = require('metalsmith-postcss');
+var tags        = require('metalsmith-tags');
 
 Metalsmith(__dirname)
   .metadata({
