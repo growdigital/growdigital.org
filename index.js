@@ -1,5 +1,6 @@
 var Metalsmith  = require('metalsmith');
 var cleanCSS    = require('metalsmith-clean-css');
+var collections = require('metalsmith-collections');
 var concat      = require('metalsmith-concat');
 var drafts      = require('metalsmith-drafts');
 var layouts     = require('metalsmith-layouts');
@@ -41,6 +42,13 @@ Metalsmith(__dirname)
     }
   }))
   .use(drafts())
+  .use(collections({
+    posts: {
+      pattern: '*.md',
+      sortBy: 'date',
+      reverse: true
+    }
+  }))
   .use(markdown())
   .use(permalinks({
     pattern: './posts/:title'
