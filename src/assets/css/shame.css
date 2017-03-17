@@ -14,5 +14,10 @@
  */
 
 .shame {
+  border-radius: 5px;
   color: red;
+}
+
+:fullscreen a {
+    display: flex
 }

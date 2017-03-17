@@ -14,18 +14,21 @@ Metalsmith(__dirname)
     generator: "Metalsmith",
     url: "https://growdigital.org/"
   })
+  .source('./src')
+  .destination('./dist')
+  .clean(true)
   // The order is important
   .use(concat({
-    files:  [
-              'assets/css/settings/variables.css', 
-              'assets/css/settings/base.css', 
-              'assets/css/settings/responsive.css', 
-              'assets/css/objects/**/*.css', 
-              'assets/css/components/**/**/*.css', 
-              'assets/css/utilities/*.css', 
-              'assets/css/shame.css'
-            ],
-    output: './src/assets/styles.css'
+    files: [
+      'assets/css/settings/variables.css', 
+      'assets/css/settings/base.css', 
+      'assets/css/settings/responsive.css', 
+      'assets/css/objects/**/*.css', 
+      'assets/css/components/**/**/*.css', 
+      'assets/css/utilities/*.css', 
+      'assets/css/shame.css'
+    ],
+    output: 'assets/styles.css'
   }))
   .use(postcss({
     plugins: {
@@ -33,14 +36,11 @@ Metalsmith(__dirname)
     }
   }))
   .use(cleanCSS({
-    files: './src/assets/styles.css',
+    files: './dist/assets/styles.css',
     cleanCSS: {
       rebase: true
     }
   }))
-  .source('./src')
-  .destination('./dist')
-  .clean(true)
   .use(drafts())
   .use(markdown())
   .use(permalinks({
