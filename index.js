@@ -20,12 +20,12 @@ Metalsmith(__dirname)
   // The order is important
   .use(concat({
     files: [
-      'assets/css/settings/variables.css', 
-      'assets/css/settings/base.css', 
-      'assets/css/settings/responsive.css', 
-      'assets/css/objects/**/*.css', 
-      'assets/css/components/**/**/*.css', 
-      'assets/css/utilities/*.css', 
+      'assets/css/settings/variables.css',
+      'assets/css/settings/base.css',
+      'assets/css/settings/responsive.css',
+      'assets/css/objects/**/*.css',
+      'assets/css/components/**/**/*.css',
+      'assets/css/utilities/*.css',
       'assets/css/shame.css'
     ],
     output: 'assets/styles.css'
@@ -36,7 +36,6 @@ Metalsmith(__dirname)
     }
   }))
   .use(cleanCSS({
-    files: './dist/assets/styles.css',
     cleanCSS: {
       rebase: true
     }
