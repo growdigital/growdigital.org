@@ -1,7 +1,7 @@
 # growdigital.org
 
-Simple Metalsmith blog for Grow Digital Ltd
+Simple Metalsmith blog for Grow Digital
 
 Using Metalsmith static site example.
 
-    $ make build
+    $ make dist
