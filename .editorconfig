@@ -10,4 +10,5 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 
 [*.md]
+# Allow <br/> from Markdown
 trim_trailing_whitespace = false
