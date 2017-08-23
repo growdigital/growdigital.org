@@ -1,0 +1,20 @@
+/* ==========================================================================
+   Shameful CSS
+   ========================================================================== */
+
+/**
+ * Put shameful CSS in here. Refactor later.
+ * http://csswizardry.com/2013/04/shame-css/
+ */
+
+/**
+ * Use the CSS Wizardry hack namespace
+ * eg ._footer-mobile {}
+ * https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#hack-namespaces-_
+ */
+
+/* Use debug utility to quickly outline problematic elements */
+/*.u-debug {
+  outline: 1px solid red !important;
+}
+*/
