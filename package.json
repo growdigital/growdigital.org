@@ -1,8 +1,8 @@
 {
-  "name": "groundwork",
-  "version": "0.1.5",
-  "description": "Blank Modular CSS Starter Kit using Metalsmith",
-  "author": "Jake Rayson <contact@groundwork.rocks>",
+  "name": "growdigital.org",
+  "version": "0.0.1",
+  "description": "Website for Grow Digital Ltd",
+  "author": "Jake Rayson <contact@growdigital.org>",
   "license": [
     "MIT ",
     "GNU GENERAL PUBLIC LICENSE"
