@@ -35,7 +35,7 @@ a:active {
 }
 
 *:focus {
-  outline: dotted 1px var(--blue_link);
+  outline: dotted 1px var(--blue);
 }
 
 /* Prevents border on linked image in IE */

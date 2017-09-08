@@ -4,23 +4,51 @@
 
 :root {
 
+  /* Colors
+     ======================================================================== */
+
   /**
-   * Colors
+   * Solarized colors: background tones, content tones, accent colors
+   * http://ethanschoonover.com/solarized
+   * https://github.com/growdigital/solarized.svg
    */
 
-  --base_text:  #333;
-  --blue_link:  #00f;
+  /* Background tones (dark) */
+  --base03: #002b36;
+  --base02: #073642;
+
+  /* Content tones */
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0:  #839496;
+  --base1:  #93a1a1;
+
+  /* Background tones (light) */
+  --base2:  #eee8d5;
+  --base3:  #fdf6e3;
+
+  /* Accent colors */
+  --yellow: #b58900;
+  --orange: #cb4b16;
+  --blue:   #268bd2;
+  --green:  #859900;
+
+  /**
+   * Base colors
+   */
+
+  --base_text:           var(--base01);
+  --base_color:          var(--base01);
+  --base_linkcolor:      var(--blue);
+  --base_linkcolorhover: var(--blue);
 
   /**
    * Base variables, adapated from Suit CSS
    */
 
-  --base_background:     white;
-  --base_color:          var(--base_text);
+  --base_background:     #fdf6e3; /* Solarized base3 */
   --base_font:           sans-serif;
   --base_fontsize:       16px;
   --base_lineheight:     1.5;
-  --base_linkcolor:      var(--blue_link);
-  --base_linkcolorhover: var(--blue_link);
 
 }
