@@ -1,9 +1,14 @@
 <!doctype html>
 <html lang="en-gb">
-{{> head}}
-<body class="no-js {{ pageClass }}">
+  {{> head}}
 
+<body class="no-js {{ pageClass }}">
+{{#if home}}
+  {{> header-home}}
+{{else}}
   {{> header}}
+{{/if}}
+
   <div class="wrapper">
     <main role="main">
       {{{ contents }}}
