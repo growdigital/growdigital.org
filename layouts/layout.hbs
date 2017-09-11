@@ -8,10 +8,10 @@
     <main role="main">
       {{{ contents }}}
     </main>
-    {{> aside}}
+    {{#if aside}}
+      {{> aside}}
+    {{/if}}
   </div>{{!-- end .wrapper --}}
-
-{{> footer}}
 
 <script src="/assets/scripts.js"></script>
 </body>

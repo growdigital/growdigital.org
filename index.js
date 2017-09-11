@@ -16,6 +16,7 @@ const metadata    = require('metalsmith-writemetadata');
 const handlebars  = require('handlebars');
 const uglifyjs    = require("metalsmith-uglifyjs");
 
+
 Metalsmith(__dirname)
   .metadata({
     site: {
