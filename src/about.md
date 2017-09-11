@@ -2,7 +2,6 @@
 layout: layout.hbs
 pageTitle: "About Grow Digital"
 pageClass: about
-aside: true
 
 ---
 

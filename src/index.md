@@ -2,7 +2,7 @@
 layout: layout.hbs
 pageTitle: "Grow Digital"
 pageClass: home
-aside: false
+home: true
 
 ---
 
