@@ -6,7 +6,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding-top: 1em;
 }
 
 .header__nav {
@@ -28,10 +27,6 @@
 }
 
 .header__logo {
-  margin: 1em 0;
-  width: 6em;
+  width: 2.125em;
 }
 
-.header__nav {
-  margin-top: 1em;
-}

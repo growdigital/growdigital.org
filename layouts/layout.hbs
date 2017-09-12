@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en-gb">
+<html lang="en-gb" class="{{ pageClass }}">
   {{> head}}
 
-<body class="no-js {{ pageClass }}">
+<body class="no-js">
 {{#if home}}
   {{> header-home}}
 {{else}}
@@ -16,7 +16,7 @@
     {{#unless home}}
       {{> aside}}
     {{/unless}}
-  </div>{{!-- end .wrapper --}}
+  </div>
 
 <script src="/assets/scripts.js"></script>
 </body>

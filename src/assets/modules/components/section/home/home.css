@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Home page CSS
+   ========================================================================== */
+
+/**
+ * Dark Solarized for home page, rest of site is light Solarized
+ */
+
+html.home {
+  background-color: var(--base03);
+  color: var(--base1);
+}
+
+.home .nav {
+  background-color: var(--base02);
+}
+
+/* todo : check */
+
+
+.home .header {
+  padding-top: 0;
+}
