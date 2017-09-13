@@ -8,6 +8,7 @@
 
 .wrapper {
   padding: 1.5em;
+  padding: 3.625em 1.5em 1.5em;
 }
 
 .wrapper > * {

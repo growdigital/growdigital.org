@@ -13,6 +13,12 @@
   font-size: 1.125em;
 }
 
+.header__heading,
+.header__heading a:link,
+.header__heading a:visited {
+  color: var(--base_colortint);
+}
+
 .header__flex {
   align-items: center;
   display: flex;
