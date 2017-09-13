@@ -21,7 +21,7 @@ Metalsmith(__dirname)
   .metadata({
     site: {
       title: "Grow Digital",
-      description: "We make websites. Honestly.",
+      description: "Remote contract frontend developer. Honestly.",
       url: "https://www.growdigital.org/",
       author: "Jake Rayson"
     }

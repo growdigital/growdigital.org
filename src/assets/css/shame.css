@@ -14,7 +14,17 @@
  */
 
 /* Use debug utility to quickly outline problematic elements */
-/*.u-debug {
+.u-debug {
   outline: 1px solid red !important;
 }
-*/
+
+
+/* todo: check against SUIT implementation */
+.u-linkless {
+  color: currentColor !important;
+  text-decoration: none !important;
+}
+
+.u-linkless:hover {
+  text-decoration: underline !important;
+}

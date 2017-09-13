@@ -6,11 +6,6 @@
  * Used for main and secondary nav
  */
 
-.nav {
-  background-color: var(--base_bgtint);
-  padding: 0.7em;
-}
-
 .nav a {
   padding: 0.3em 0.8em;
   text-decoration: none;

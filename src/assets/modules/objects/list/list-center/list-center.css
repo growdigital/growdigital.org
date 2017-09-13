@@ -3,10 +3,12 @@
    ==========================================================================*/
 
 /**
- * Centered inline list using flexbox
+ * Centered (both ways) inline list using flexbox
  */
 
 .o-list-center {
+  align-items: center; /* Secondary axis alignment */
   display: flex;
+  height: 100%; /* To fill container vertically */
   justify-content: center;
 }

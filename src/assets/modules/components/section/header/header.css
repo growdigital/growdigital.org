@@ -3,30 +3,28 @@
    ========================================================================== */
 
 .header {
-  align-items: center;
+  background-color: var(--base_bgtint);
   display: flex;
-  flex-direction: column;
-}
-
-.header__nav {
-  align-self: stretch;
+  justify-content: space-between;
+  padding-right: 10.625em; /* Magic number hack, equals width of heading & logo */
 }
 
 .header__heading {
-  font-size: 3em;
+  font-size: 1.125em;
 }
 
-.header__heading a:link,
-.header__heading a:visited {
-  color: var(--base_colortint);
-  text-decoration: none;
-}
-
-.header__heading a:hover {
-  text-decoration: underline;
+.header__flex {
+  align-items: center;
+  display: flex;
+  padding-left: 1.25em;
+  padding-top: 0.625em;
 }
 
 .header__logo {
-  width: 2.125em;
+  margin-right: 0.875em;
+}
+
+.header__nav {
+  flex: 1;
 }
 
