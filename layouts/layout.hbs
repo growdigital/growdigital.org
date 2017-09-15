@@ -9,14 +9,14 @@
   {{> header}}
 {{/if}}
 
-  <div class="wrapper">
-    <main role="main">
+  <div class="main__wrapper">
+    <main class="main _layout" role="main">
       {{{ contents }}}
     </main>
+  </div>
     {{#unless home}}
       {{> aside}}
     {{/unless}}
-  </div>
 
 <script src="/assets/scripts.js"></script>
 </body>

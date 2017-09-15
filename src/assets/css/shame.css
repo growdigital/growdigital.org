@@ -19,6 +19,21 @@
 }
 
 
+._layout {
+  margin: 0 auto;
+  max-width: 44em;
+}
+
+.main__wrapper {
+  background-color: var(--base_bgtint);
+  padding: 3.225em 2.3125em 1.625em;
+  /*outline: 1px solid green;*/
+}
+
+.main__wrapper > * {
+  /*outline: 1px solid purple;*/
+}
+
 /* todo: check against SUIT implementation */
 .u-linkless {
   color: currentColor !important;

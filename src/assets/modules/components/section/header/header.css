@@ -3,11 +3,12 @@
    ========================================================================== */
 
 .header {
-  background-color: var(--base_bgtint);
+  background-color: var(--base_bg);
   display: flex;
   justify-content: space-between;
   padding-right: 10.625em; /* Magic number hack, equals width of heading & logo */
 }
+/* TODO: remove that magic numnber hack!!! */
 
 .header__heading {
   font-size: 1.125em;

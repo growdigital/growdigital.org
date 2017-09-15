@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .footer__social {
-  background-color: var(--base_bgtint);
+  background-color: var(--base_bg);
   padding: 1em;
 }
 

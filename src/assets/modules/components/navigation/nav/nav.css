@@ -18,14 +18,14 @@
 .about .nav .about,
 .blog .nav .blog
 {
-  background-color: var(--base_bg);
+  background-color: var(--base_bgtint);
 }
 
 .nav a,
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  color: var(--base_colortint);
+  color: var(--base1);
 }
 
 .nav a:hover {

@@ -6,7 +6,10 @@
  * Coloured wrapper for content background
  */
 
-.wrapper {
+
+/* todo: make wrapper the grid */
+
+/*.wrapper {
   padding: 1.5em;
   padding: 3.625em 1.5em 1.5em;
 }
@@ -14,5 +17,5 @@
 .wrapper > * {
   margin: 0 auto;
   max-width: 44em;
-}
+}*/
 
