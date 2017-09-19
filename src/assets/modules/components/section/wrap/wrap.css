@@ -1,21 +1,19 @@
 /* ==========================================================================
-   Wrapper
+   Wrap
    ========================================================================== */
 
 /**
- * Coloured wrapper for content background
+ * All the wrappers, for backgrounds, margins, padding etc.
  */
 
 
-/* todo: make wrapper the grid */
+.wrap__layout {
 
-/*.wrapper {
-  padding: 1.5em;
-  padding: 3.625em 1.5em 1.5em;
 }
 
-.wrapper > * {
+
+
+.wrap__content {
   margin: 0 auto;
   max-width: 44em;
-}*/
-
+}

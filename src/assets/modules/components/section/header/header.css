@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .header {
-  background-color: var(--base_bg);
+  background-color: var(--bright);
   display: flex;
   justify-content: space-between;
   padding-right: 10.625em; /* Magic number hack, equals width of heading & logo */
@@ -17,7 +17,7 @@
 .header__heading,
 .header__heading a:link,
 .header__heading a:visited {
-  color: var(--base_colortint);
+  color: var(--gray_dark);
 }
 
 .header__flex {

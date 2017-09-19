@@ -7,12 +7,12 @@
  */
 
 html.home {
-  background-color: var(--base03);
-  color: var(--base1);
+  background-color: var(--dimmest);
+  color: var(--gray_light);
 }
 
 .home .nav {
-  background-color: var(--base02);
+  background-color: var(--dim);
 }
 
 /* todo : check */
