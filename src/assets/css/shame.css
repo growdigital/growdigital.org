@@ -14,10 +14,32 @@
  */
 
 /* Use debug utility to quickly outline problematic elements */
-.u-debug {
+.red {
   outline: 1px solid red !important;
 }
 
+.blue {
+  outline: 1px solid blue !important;
+}
+
+.green {
+  outline: 1px solid green !important;
+}
+
+.bg {
+  background-color: yellow;
+}
+
+/* put in aside file */
+
+.aside {
+  padding: 2em 0;
+}
+
+/* put in type utilities */
+.u-small {
+  font-size: small;
+}
 
 /* todo: check against SUIT implementation */
 .u-linkless {

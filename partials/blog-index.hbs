@@ -1,0 +1,8 @@
+{{#each collections }}
+<h1>Blog</h1>
+  <ol class="o-list-disc">
+  {{#each this }}
+    <li><a href="/{{ this.path }}">{{ this.title }}</a><br>{{ this.desc }}</li>
+  {{/each}}
+  </ol>
+{{/each}}

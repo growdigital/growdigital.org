@@ -9,14 +9,21 @@
   {{> header}}
 {{/if}}
 
-  <div class="main__container">
-    <main class="wrap__content" role="main">
+<div class="wrap__layout">
+  <div class="main__container blue">
+    <main class="wrap__content red" role="main">
       {{{ contents }}}
+      {{> blog-index}}
     </main>
   </div>
   {{#unless home}}
     {{> aside}}
   {{/unless}}
+</div>
+
+{{#unless home}}
+  {{> footer}}
+{{/unless}}
 
 <script src="/assets/scripts.js"></script>
 </body>

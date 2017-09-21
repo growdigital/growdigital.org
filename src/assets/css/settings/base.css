@@ -22,14 +22,20 @@ html {
 }
 
 /* Links */
-a {
+a,
+a:link {
   color: var(--blue);
   text-decoration: underline;
+}
+
+a:visited {
+  color: var(--violet);
 }
 
 a:hover,
 a:focus,
 a:active {
+  color: var(--green);
   text-decoration: underline;
 }
 
