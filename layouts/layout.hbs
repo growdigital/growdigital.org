@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en-gb" class="{{ pageClass }}">
-  {{> head}}
+{{> head}}
 
 <body class="no-js">
+
 {{#if home}}
   {{> header-home}}
 {{else}}
@@ -13,7 +14,9 @@
   <div class="main__container blue">
     <main class="wrap__content red" role="main">
       {{{ contents }}}
-      {{> blog-index}}
+      {{#if blog}}
+        {{> blog}}
+      {{/if}}
     </main>
   </div>
   {{#unless home}}
