@@ -1,16 +1,25 @@
 <!doctype html>
 <html lang="en-gb">
 {{> head}}
-<body class="no-js post">
-  {{> header}}
 
-  <div class="wrapper">
-    <div class="post">
-      <h1>{{ title }}</h1>
-      <time>{{ date }}</time>
-      {{{ contents }}}
+<body class="no-js post">
+
+{{> header}}
+
+<div class="wrap__layout">
+  <main class="main__container">
+    <div class="wrap__container">
+      <article class="wrap__content">
+        <h1>{{ title }}</h1>
+        <time>{{ date }}</time>
+        {{{ contents }}}
+      </article>
     </div>
-  </div>
+  </main>
+  {{> aside}}
+</div>
+
+{{> footer}}
 
 <script src="/assets/scripts.js"></script>
 </body>
