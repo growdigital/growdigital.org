@@ -1,6 +1,6 @@
 ---
 title: Hello? Is this thing on?
-date: Fri Sep 15 11:15:24 2017
+date: 2017-09-14
 layout: post.hbs
 collections: posts
 ---

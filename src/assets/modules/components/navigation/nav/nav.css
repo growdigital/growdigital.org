@@ -7,12 +7,17 @@
  */
 
 .nav {
-  font-size: 0.9375em;
+  font-size: 0.96875em;
 }
 
 .nav a {
-  padding: 0.3em 0.8em;
+  border-radius: 4px;
+  padding: 0.5em 0.8em;
   text-decoration: none;
+}
+
+.nav > * {
+  margin: 0 0.3em;
 }
 
 /* Menu page trails */
@@ -23,16 +28,17 @@
 .blog .nav .blog
 {
   background-color: var(--brightest);
+  cursor: default;
 }
 
 .nav a,
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  color: var(--gray_light);
+  color: var(--gray);
 }
 
 .nav a:hover {
-  text-decoration: underline;
+  background-color: var(--brightest);
 }
 
