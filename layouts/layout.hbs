@@ -11,14 +11,7 @@
 {{/if}}
 
 <div class="wrap__layout">
-  <div class="main__container blue">
-    <main class="wrap__content red" role="main">
-      {{{ contents }}}
-      {{#if blog}}
-        {{> blog}}
-      {{/if}}
-    </main>
-  </div>
+  {{> main}}
   {{#unless home}}
     {{> aside}}
   {{/unless}}

@@ -7,5 +7,3 @@ blog: true
 ---
 
 # Blog
-
-Blog index

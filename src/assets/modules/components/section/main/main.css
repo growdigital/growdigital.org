@@ -5,5 +5,5 @@
 /* Contains the main element */
 .main__container {
   background-color: var(--brightest);
-  padding: 3.225em 2.3125em 1.625em;
+  padding-top: 2.3125em;
 }
