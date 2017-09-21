@@ -2,8 +2,27 @@
    Footer
    ========================================================================== */
 
-
 .footer {
   padding: 1em;
   text-align: center;
+}
+
+/* Footer links */
+
+.footer a:visited {
+  color: var(--blue);
+}
+
+.footer a:hover {
+  color: var(--green);
+}
+
+/* Footer social */
+
+.footer__social {
+  padding: 2em 1em 1.5em;
+}
+
+.footer__social > * {
+  margin: 0 1em;
 }

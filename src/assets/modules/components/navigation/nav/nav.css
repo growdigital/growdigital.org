@@ -19,7 +19,8 @@
 /* Menu page trails */
 .home .nav .home,
 .about .nav .about,
-.blog .nav .blog
+.blog .nav .blog,
+.post .nav .blog
 {
   background-color: var(--brightest);
   cursor: default;
