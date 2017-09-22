@@ -38,3 +38,16 @@
   background-color: var(--brightest);
 }
 
+/* Home page variations */
+
+.home .nav {
+  background-color: var(--dim);
+  height: 4.328125em; /* Make same height as standard nav */
+}
+
+.home .nav .home,  /* Menu page trail */
+.home .nav a:hover /* Menu hover */
+{
+  background-color: var(--dimmest);
+}
+

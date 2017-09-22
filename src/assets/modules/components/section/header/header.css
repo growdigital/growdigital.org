@@ -10,13 +10,17 @@
 }
 /* TODO: remove that magic numnber hack!!! */
 
-.header__heading {
+.header--home {
+  background-color: var(--dimmest);
+}
+
+.header__title {
   font-size: 1.125em;
 }
 
-.header__heading,
-.header__heading a:link,
-.header__heading a:visited {
+.header__title,
+.header__title a:link,
+.header__title a:visited {
   color: var(--gray_dark);
 }
 
@@ -35,3 +39,28 @@
   flex: 1;
 }
 
+/* Home page variations */
+
+.header--home {
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  text-align: center;
+}
+
+.home .header__nav {
+  align-self: stretch;
+  margin-bottom: 2.0625em;
+}
+
+.header__title--home {
+  color: var(--yellow);
+  font-size: 2.25em;
+  margin: 1em 0;
+}
+
+.header__desc {
+  color: var(--gray_light);
+  font-size: 1.3em;
+  margin-bottom: 2em;
+}
