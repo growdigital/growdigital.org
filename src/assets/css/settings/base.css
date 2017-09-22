@@ -35,7 +35,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: var(--green);
+  color: var(--orange);
   text-decoration: underline;
 }
 
