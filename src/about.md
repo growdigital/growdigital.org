@@ -7,7 +7,7 @@ pageClass: about
 
 # About Grow Digital
 
-Grow Digital Ltd is mostly me, [Jake Rayson](). 
+Grow Digital Ltd is mostly me, [Jake Rayson](https://www.linkedin.com/in/jake-rayson-b5ba95115). 
 
 I’m a frontend developer/designer with a particular fondness for accessibility, well-crafted design systems and modular CSS. Of late, I have been learning React and JavaScript.
 
