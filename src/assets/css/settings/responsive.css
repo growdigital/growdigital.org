@@ -1,3 +1,26 @@
 /* ==========================================================================
    Responsive breakpoints
    ========================================================================== */
+
+@media screen and (max-width: 40em) {
+  body {
+    font-size: 100%;
+  }
+}
+
+/*
+
+30em = 480px
+40em = 640px
+*/
+
+/* custom media queries */
+
+@custom-media --small-viewport (max-width: 30em);
+/* check out media queries ranges for a better syntax !*/
+
+@media (--small-viewport) {
+  /* styles for small viewport */
+}
+
+/* https://drafts.csswg.org/mediaqueries/#mq-syntax
