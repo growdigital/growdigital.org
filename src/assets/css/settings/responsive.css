@@ -24,3 +24,17 @@
 }
 
 /* https://drafts.csswg.org/mediaqueries/#mq-syntax
+http://cssnext.io/features/#media-queries-ranges */
+
+
+
+@media (width >= 500px) and (width <= 1200px) {
+  /* your styles */
+}
+
+/* or coupled with custom media queries */
+@custom-media --only-medium-screen (width >= 500px) and (width <= 1200px);
+
+@media (--only-medium-screen) {
+  /* your styles */
+}
