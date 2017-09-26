@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .footer {
+  background-color: var(--dim);
   padding: 1em;
   text-align: center;
 }
@@ -21,7 +22,6 @@
   color: var(--yellow);
   text-decoration: underline;
 }
-
 
 
 /* Footer social */
