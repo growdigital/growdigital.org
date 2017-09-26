@@ -1,11 +1,6 @@
 <header class="header" role="banner">
-  <h2 class="header__title">
-    <a class="header__flex u-linkless" href="/" title="Link to home page">
-      <img class="header__logo" src="/assets/images/logo-thick.svg" alt="Grow Digital logo">
-      {{ site.title }}
-    </a>
-  </h2>
   {{> nav}}
-  <div class="header__spacer">
-  </div>
+  <img class="header__logo" src="/assets/images/logo.svg" alt="Grow Digital logo">
+  <h1 class="header__title header__title--home">{{ site.title }}</h1>
+  <h2 class="header__desc">{{ site.description }}</h2>
 </header>

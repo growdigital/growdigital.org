@@ -4,12 +4,6 @@
 
 /* Contains the main element */
 .main__container {
-  background-color: var(--brightest);
-  padding-top: 2.3125em;
-}
-
-/* Home page variation */
-
-.home .main__container {
   background-color: var(--dimmest);
+  padding-top: 2.3125em;
 }

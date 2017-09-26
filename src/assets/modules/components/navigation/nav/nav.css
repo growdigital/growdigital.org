@@ -3,7 +3,10 @@
    ==========================================================================*/
 
 .nav {
+  background-color: var(--dim);
   font-size: 0.96875em;
+  padding-top: 1.5em;
+  padding-bottom: 1.2em;
 }
 
 .nav a {
@@ -22,7 +25,7 @@
 .blog .nav .blog,
 .post .nav .blog
 {
-  background-color: var(--brightest);
+  background-color: var(--dimmest);
   cursor: default;
 }
 
@@ -35,19 +38,5 @@
 }
 
 .nav a:hover {
-  background-color: var(--brightest);
-}
-
-/* Home page variations */
-
-.home .nav {
-  background-color: var(--dim);
-  height: 4.328125em; /* Make same height as standard nav */
-}
-
-.home .nav .home,  /* Menu page trail */
-.home .nav a:hover /* Menu hover */
-{
   background-color: var(--dimmest);
 }
-
