@@ -4,11 +4,7 @@
 
 <body class="no-js">
 
-{{#if home}}
-  {{> header-home}}
-{{else}}
   {{> header}}
-{{/if}}
 
 <div class="wrap__layout">
   {{> main}}
@@ -17,9 +13,7 @@
   {{/unless}}
 </div>
 
-{{#unless home}}
   {{> footer}}
-{{/unless}}
 
 <script src="/assets/scripts.js"></script>
 </body>

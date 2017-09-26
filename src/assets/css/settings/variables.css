@@ -32,20 +32,20 @@
   --yellow:  #b58900;
   --orange:  #cb4b16;
   --red:     #dc322f;
-  --blue:    #268bd2;
+  --blue:    #459bd8; /* original Solarized #268bd2; */
   --green:   #859900;
 
   --orenish: #c85000;
 
   /* Unused */
    --magenta: #d33682;
-   --violet:  #6c71c4;
+   --violet:  #7b80c5; /* original Solarized #6c71c4; */
    --cyan:    #2aa198;
 
   /* Base variables, adapated from SUIT CSS
      ======================================================================== */
 
-  --base_font:       sans-serif;
+  --base_font:       'Nunito Sans', sans-serif;
   --base_fontsize:   16px;
   --base_lineheight: 1.5;
 

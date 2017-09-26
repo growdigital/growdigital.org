@@ -25,7 +25,7 @@ html {
 a,
 a:link {
   color: var(--blue);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:visited {
