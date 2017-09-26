@@ -6,9 +6,10 @@
   background-color: var(--bright);
   display: flex;
   justify-content: space-between;
-  padding-right: 10.625em; /* Magic number hack, equals width of heading & logo */
+  /* Magic number hack, equals width of heading & logo */
+  /* TODO: remove that magic numnber hack!!! */
+  padding-right: 10.625em;
 }
-/* TODO: remove that magic numnber hack!!! */
 
 .header--home {
   background-color: var(--dimmest);
