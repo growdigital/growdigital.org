@@ -4,14 +4,15 @@
 
 .header {
   align-items: center;
-  background-color: var(--dimmest);
+  background-color: var(--dim);
   display: flex;
   text-align: center;
 }
 
 .header__title {
   font-size: 1.125em;
-  margin: 0;
+  margin-top: 1em;
+  margin-bottom: 0;
 }
 
 .header__title,
@@ -21,7 +22,24 @@
 }
 
 .header__logo {
+  align-self: flex-end;
+  margin-left: 1.25em;
+  margin-right: 0.875em;
   width: 2.125em;
+}
+
+.header__nav {
+  flex: 1;
+}
+
+/* awful hack TODO: make the power of flexbox work */
+.header__nav .nav {
+  left: -5.5em;
+  position: relative;
+}
+
+.home .header__nav .nav {
+  position: unset;
 }
 
 .header__desc {
@@ -35,6 +53,7 @@
 /* Home page variations */
 
 .home .header {
+  background-color: var(--dimmest);
   flex-direction: column;
 }
 
@@ -45,7 +64,9 @@
 }
 
 .home .header__logo {
+  align-self: center;
   order: 2;
+  margin: 0;
   width: 8.75em;
 }
 

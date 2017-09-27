@@ -54,14 +54,22 @@
 }
 
 
+/* awful hack until sort out mobile first layout */
 
+/* hide grow digital site title! */
+.header__title {
+  display: none;
+}
 
-/*
-logo:
-width 34px 2.125em
+/* until 34.625em wide */
+@media screen and (min-width: 34.625em) {
+  .header__title {
+    display: unset;
+  }
+}
 
-header
-flex-direction row
+/* and on home page */
+.home .header__title {
+  display: unset;
+}
 
-
-*/
