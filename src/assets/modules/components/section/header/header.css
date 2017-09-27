@@ -6,14 +6,12 @@
   align-items: center;
   background-color: var(--dimmest);
   display: flex;
-  flex-direction: column;
   text-align: center;
 }
 
 .header__title {
   font-size: 1.125em;
-  font-size: 2.25em;
-  margin: 1em 0;
+  margin: 0;
 }
 
 .header__title,
@@ -22,13 +20,42 @@
   color: var(--yellow);
 }
 
-.header__nav {
-  align-self: stretch;
-  margin-bottom: 2.0625em;
+.header__logo {
+  width: 2.125em;
 }
 
 .header__desc {
   color: var(--gray_light);
+  display: none;
   font-size: 1.3em;
   margin-bottom: 2em;
+}
+
+
+/* Home page variations */
+
+.home .header {
+  flex-direction: column;
+}
+
+.home .header__nav {
+  align-self: stretch;
+  margin-bottom: 2.0625em;
+  order: 1;
+}
+
+.home .header__logo {
+  order: 2;
+  width: 8.75em;
+}
+
+.home .header__title {
+  font-size: 2.25em;
+  margin: 1em 0;
+  order: 3;
+}
+
+.home .header__desc {
+  display: block;
+  order: 4;
 }
