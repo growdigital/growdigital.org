@@ -8,10 +8,12 @@
   justify-content: center;
   display: flex;
   flex-direction: row;
+  padding-top: 0.3em;
 }
 
 .home .header__logotype {
-  background-color: var(--dimmest);
+  background-color: var(--dimmestnav);
+  padding-top: 7vh;
 }
 
 .home .header__logotype {
