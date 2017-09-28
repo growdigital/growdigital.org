@@ -40,10 +40,12 @@
 .header__logo {
   align-self: center;
   margin-right: 0.875em;
+  height: 3.625em;
   width: 2.125em;
 }
 
 .home .header__logo {
+  height: 14.9375em;
   width: 8.75em;
 }
 
