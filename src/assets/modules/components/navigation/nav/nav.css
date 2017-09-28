@@ -3,16 +3,16 @@
    ==========================================================================*/
 
 .nav {
+  background-color: var(--dim);
   font-size: 0.96875em;
   padding-top: 1.8em;
   padding-bottom: 1.3em;
 }
 
 /* Not part of same band on home page, so give it lighter background color */
-.home .nav {
+/*.home .nav {
   background-color: var(--dim);
-}
-
+} */
 .nav a {
   border-radius: 4px;
   padding: 0.5em 0.8em;

@@ -2,29 +2,31 @@
    Header
    ========================================================================== */
 
-.header {
-  align-items: center;
+.header__logotype {
+  align-items: flex-end;
   background-color: var(--dim);
+  justify-content: center;
   display: flex;
-  text-align: center;
+  flex-direction: row;
 }
 
-/* Home page variations */
-.home .header {
+.home .header__logotype {
   background-color: var(--dimmest);
+}
+
+.home .header__logotype {
+  align-items: center;
   flex-direction: column;
 }
 
 .header__title {
   font-size: 1.125em;
   margin-top: 1em;
-  margin-bottom: 0;
+  margin-bottom: 1em;
 }
 
 .home .header__title {
   font-size: 2.25em;
-  margin: 1em 0;
-  order: 3;
 }
 
 .header__title,
@@ -34,37 +36,13 @@
 }
 
 .header__logo {
-  align-self: flex-end;
-  margin-left: 1.25em;
+  align-self: center;
   margin-right: 0.875em;
   width: 2.125em;
 }
 
 .home .header__logo {
-  align-self: center;
-  order: 2;
-  margin: 0;
   width: 8.75em;
-}
-
-.header__nav {
-  flex: 1;
-}
-
-.home .header__nav {
-  align-self: stretch;
-  margin-bottom: 2.0625em;
-  order: 1;
-}
-
-/* awful hack TODO: make the power of flexbox work */
-.header__nav .nav {
-  left: -5.5em;
-  position: relative;
-}
-
-.home .header__nav .nav {
-  position: unset;
 }
 
 .header__desc {
@@ -76,5 +54,4 @@
 
 .home .header__desc {
   display: block;
-  order: 4;
 }
