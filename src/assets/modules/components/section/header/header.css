@@ -9,10 +9,22 @@
   text-align: center;
 }
 
+/* Home page variations */
+.home .header {
+  background-color: var(--dimmest);
+  flex-direction: column;
+}
+
 .header__title {
   font-size: 1.125em;
   margin-top: 1em;
   margin-bottom: 0;
+}
+
+.home .header__title {
+  font-size: 2.25em;
+  margin: 1em 0;
+  order: 3;
 }
 
 .header__title,
@@ -28,8 +40,21 @@
   width: 2.125em;
 }
 
+.home .header__logo {
+  align-self: center;
+  order: 2;
+  margin: 0;
+  width: 8.75em;
+}
+
 .header__nav {
   flex: 1;
+}
+
+.home .header__nav {
+  align-self: stretch;
+  margin-bottom: 2.0625em;
+  order: 1;
 }
 
 /* awful hack TODO: make the power of flexbox work */
@@ -47,33 +72,6 @@
   display: none;
   font-size: 1.3em;
   margin-bottom: 2em;
-}
-
-
-/* Home page variations */
-
-.home .header {
-  background-color: var(--dimmest);
-  flex-direction: column;
-}
-
-.home .header__nav {
-  align-self: stretch;
-  margin-bottom: 2.0625em;
-  order: 1;
-}
-
-.home .header__logo {
-  align-self: center;
-  order: 2;
-  margin: 0;
-  width: 8.75em;
-}
-
-.home .header__title {
-  font-size: 2.25em;
-  margin: 1em 0;
-  order: 3;
 }
 
 .home .header__desc {
