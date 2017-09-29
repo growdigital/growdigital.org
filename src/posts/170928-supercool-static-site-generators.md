@@ -3,7 +3,7 @@ title: Why Static Site Generators are SuperCool
 date: 2017-09-28
 layout: post.hbs
 collections: posts
-draft: false
+draft: true
 desc: Static Site Generators are the New Hotness of the past few years, and they play a crucial role in the Open Web.
 
 ---
