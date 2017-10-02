@@ -3,7 +3,7 @@ title: My mobile setup
 date: 2017-10-02
 layout: post
 collections: posts
-draft: false
+draft: true
 desc: FWIW here’s how I set up my mobile blogging workflow
 
 ---
