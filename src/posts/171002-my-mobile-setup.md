@@ -11,7 +11,7 @@ desc: FWIW here’s how I set up my mobile blogging workflow
 ## Website
 
 1. Get yourself a Static Site Generator. [Any one will do](https://www.staticgen.com). I like [Metalsmith](http://www.metalsmith.com/).
-2. Build yourself a blog with it. I‘ve made a blog template already called [Groundwork](https://www.groundwork.rocks/) which you can use if you like. 
+2. Build yourself a blog with it. I‘ve made a blog template already called [Groundwork](https://www.groundwork.rocks/) which you can use if you like.
 3. Host the blog’s repository somewhere like [GitHub](https://github.com/).
 4. Now you can write Markdown text files on your mobile phone and push it to your git repo when you have an internet connection. Super low bandwidth. 
 
