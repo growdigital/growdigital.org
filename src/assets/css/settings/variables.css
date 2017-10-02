@@ -36,7 +36,8 @@
   --green:   #859900;
   --violet:  #7b80c5; /* original Solarized #6c71c4; */
 
-  --orenish: #c85000;
+  /* Bastard greys */
+  --nearblack: #001c23;
 
   /* Unused */
    --magenta: #d33682;
