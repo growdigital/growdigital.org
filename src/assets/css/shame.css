@@ -40,7 +40,7 @@
 
 /* put in type utilities */
 .u-small {
-  font-size: small;
+  font-size: small !important;
 }
 
 /* todo: check against SUIT implementation */
@@ -52,24 +52,3 @@
 .u-linkless:hover {
   text-decoration: underline !important;
 }
-
-
-/* awful hack until sort out mobile first layout */
-
-/* hide grow digital site title! */
-.header__title {
-  display: none;
-}
-
-/* until 34.625em wide */
-@media screen and (min-width: 34.625em) {
-  .header__title {
-    display: unset;
-  }
-}
-
-/* and on home page */
-.home .header__title {
-  display: unset;
-}
-
