@@ -25,75 +25,89 @@ Metalsmith(__dirname)
       author: "Jake Rayson"
     }
   })
-  .source('./src')
-  .destination('./build')
+  .source("./src")
+  .destination("./build")
   // Only clean in dev. Set to false to preserve Fractal styleguide.
   .clean(true)
   // Ignoring documentation and Fractal templates
-  .use(ignore([
-    'docs/*',
-    'assets/modules/**/**/*.hbs',
-    'assets/modules/**/**/**/*.hbs',
-    'assets/modules/**/**/**/**/*.hbs'
-  ]))
+  .use(
+    ignore([
+      "docs/*",
+      "assets/modules/**/**/*.hbs",
+      "assets/modules/**/**/**/*.hbs",
+      "assets/modules/**/**/**/**/*.hbs"
+    ])
+  )
   // Concatenation: the order is important
   // Concat CSS
-  .use(concat({
-    files: [
-       'assets/css/settings/variables.css'
-      ,'normalize.css/normalize.css'
-      ,'assets/css/settings/base.css'
-      ,'assets/css/settings/typography.css'
-      ,'assets/css/settings/responsive.css'
-      ,'assets/modules/objects/**/*.css'
-      ,'assets/modules/components/**/**/*.css'
-      ,'assets/modules/utilities/**/**/*.css'
-      ,'assets/css/shame.css'
-    ],
-    searchPaths: [ 'node_modules' ],
-    output: 'assets/styles.css'
-  }))
+  .use(
+    concat({
+      files: [
+        "assets/css/settings/variables.css",
+        "normalize.css/normalize.css",
+        "assets/css/settings/base.css",
+        "assets/css/settings/typography.css",
+        "assets/css/settings/responsive.css",
+        "assets/modules/objects/**/*.css",
+        "assets/modules/components/**/**/*.css",
+        "assets/modules/utilities/**/**/*.css",
+        "assets/css/shame.css"
+      ],
+      searchPaths: ["node_modules"],
+      output: "assets/styles.css"
+    })
+  )
   // Optimise (uglify) CSS
-  .use(cleancss({
-    files: 'assets/styles.css'
-  }))
+  .use(
+    cleancss({
+      files: "assets/styles.css"
+    })
+  )
   // Concatenate JavaScript
-  .use(concat({
-    files: [
-       'assets/js/*.js'
-      ,'assets/modules/objects/**/*.js'
-      ,'assets/modules/components/**/**/*.js'
-      ,'assets/modules/utilities/**/**/*.js'
-    ],
-    searchPaths: [ 'node_modules' ],
-    output: 'assets/scripts.js'
-  }))
+  .use(
+    concat({
+      files: [
+        "assets/js/*.js",
+        "assets/modules/objects/**/*.js",
+        "assets/modules/components/**/**/*.js",
+        "assets/modules/utilities/**/**/*.js"
+      ],
+      searchPaths: ["node_modules"],
+      output: "assets/scripts.js"
+    })
+  )
   // Optimise (uglify) JavaScript
-  .use(uglifyjs({
-    src: ["assets/scripts.js"],
-    override: true,
-    uglifyOptions: {
-      mangle: true,
-      compress: {
-        unused: false,
-        warnings: true
+  .use(
+    uglifyjs({
+      src: ["assets/scripts.js"],
+      override: true,
+      uglifyOptions: {
+        mangle: true,
+        compress: {
+          unused: false,
+          warnings: true
+        }
       }
-    }
-  }))
+    })
+  )
   // +1 PostCSS. Use CSS preprocessor of your choice if you’d rather!
-  .use(postcss({
-    plugins: {
-      'postcss-cssnext': {}
-    }
-  }))
+  .use(
+    postcss({
+      plugins: {
+        "postcss-cssnext": {}
+      }
+    })
+  )
   .use(drafts())
-  .use(collections({
-    posts: {
-      pattern: 'posts/**/*.md',
-      sortBy: 'date',
-      reverse: true
-    }
-  }))
+  .use(
+    collections({
+      posts: {
+        pattern: "posts/**/*.md",
+        sortBy: "date",
+        reverse: true
+      }
+    })
+  )
 
   // To help with debugging, use metadata
   // .use(metadata({
@@ -101,32 +115,50 @@ Metalsmith(__dirname)
   // }))
 
   // Use GitFriendlyMarkdown formatter
-  .use(markdown({
-    gfm: true
-  }))
+  .use(
+    markdown({
+      gfm: true
+    })
+  )
   // Change your date format here
   // Uses Moment.js http://momentjs.com/docs/#/displaying/
-  .use(dateFormat({
-    key: 'date',
-    format: 'ddd D MMM YYYY'
-  }))
-  .use(permalinks({
-    pattern: './posts/:title',
-    relative: false
-  }))
+  .use(
+    dateFormat({
+      key: "date",
+      format: "ddd D MMM YYYY"
+    })
+  )
+  .use(
+    permalinks({
+      pattern: "./posts/:title",
+      relative: false
+    })
+  )
   // I like Handlebars templating. You can use what you like.
-  .use(templates({
-    engine: 'handlebars',
-    partials: 'partials'
-  }))
+  .use(
+    templates({
+      engine: "handlebars",
+      partials: "partials"
+    })
+  )
   // Create RSS feed
-  .use(feed({
-    collection: 'posts'
-  }))
+  .use(
+    feed({
+      collection: "posts",
+      postDescription: function(file) {
+        return file.excerpt;
+      }
+    })
+  )
   // Move graphics assets out of modules and into /assets/images/ directory
-  .use(move({
-    'assets/modules/components/**/**/*.+(png|svg|ico|jpg)': 'assets/images/{name}{ext}'
-  }))
+  .use(
+    move({
+      "assets/modules/components/**/**/*.+(png|svg|ico|jpg)":
+        "assets/images/{name}{ext}"
+    })
+  )
   .build(function(err, files) {
-    if (err) { throw err; }
+    if (err) {
+      throw err;
+    }
   });
