@@ -3,7 +3,7 @@ title: All new Groundwork
 date: 2017-11-21
 layout: post.hbs
 collections: posts
-desc: A ground up rebuilding of the Groundwork Metalsmith blog template
+excerpt: A ground up rebuilding of the Groundwork Metalsmith blog template
 
 ---
 

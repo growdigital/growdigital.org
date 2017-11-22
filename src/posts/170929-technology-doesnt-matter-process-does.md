@@ -4,7 +4,7 @@ date: 2017-09-29
 layout: post.hbs
 collections: posts
 draft: false
-desc: I don’t want to get all agnostic on your ass but really what you’re doing is more important than how you’re doing  
+excerpt: I don’t want to get all agnostic on your ass but really what you’re doing is more important than how you’re doing  
 
 ---
 

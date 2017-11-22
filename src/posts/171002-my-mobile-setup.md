@@ -4,7 +4,7 @@ date: 2017-10-02
 layout: post.hbs
 collections: posts
 draft: false
-desc: FWIW here’s how I set up my mobile blogging workflow
+excerpt: FWIW here’s how I set up my mobile blogging workflow
 
 ---
 

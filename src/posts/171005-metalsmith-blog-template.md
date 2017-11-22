@@ -4,7 +4,7 @@ date: 2017-10-05
 layout: post.hbs
 collections: posts
 draft: false
-desc: Does the world really need yet another blog template?
+excerpt: Does the world really need yet another blog template?
 
 ---
 

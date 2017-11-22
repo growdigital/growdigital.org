@@ -4,7 +4,7 @@ date: 2017-09-22
 layout: post.hbs
 collections: posts
 draft: false
-desc: The obligatory first post to herald the bright new dawn of a shiny new blog…
+excerpt: The obligatory first post to herald the bright new dawn of a shiny new blog…
 
 ---
 
