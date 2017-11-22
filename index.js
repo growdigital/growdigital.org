@@ -121,8 +121,7 @@ Metalsmith(__dirname)
   }))
   // Create RSS feed
   .use(feed({
-    collection: 'posts',
-    limit: false
+    collection: 'posts'
   }))
   // Move graphics assets out of modules and into /assets/images/ directory
   .use(move({

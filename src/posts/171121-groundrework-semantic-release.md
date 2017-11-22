@@ -1,5 +1,5 @@
 ---
-title: Groundrework: semantic-release
+title: Reworking Groundwork Part 1 - semantic-release
 date: 2017-11-21
 layout: post.hbs
 collections: posts
