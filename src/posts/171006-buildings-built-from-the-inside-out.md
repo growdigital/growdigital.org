@@ -2,7 +2,7 @@
 title: Buildings built from the inside out
 date: 2017-10-06
 layout: post.hbs
-collections: posts
+collection: post
 excerpt: Imagine if websites were designed by interior designers
 
 ---

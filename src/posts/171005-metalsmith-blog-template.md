@@ -2,7 +2,7 @@
 title: Metalsmith blog template
 date: 2017-10-05
 layout: post.hbs
-collections: posts
+collection: post
 draft: false
 excerpt: Does the world really need yet another blog template?
 

@@ -2,7 +2,7 @@
 title: Out in the world 
 date: 2017-09-22
 layout: post.hbs
-collections: posts
+collection: post
 draft: false
 excerpt: The obligatory first post to herald the bright new dawn of a shiny new blog…
 

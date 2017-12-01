@@ -1,6 +1,6 @@
 const Metalsmith  = require('metalsmith');
 const cleancss    = require('metalsmith-clean-css');
-const collections = require('metalsmith-collections');
+const collection = require('metalsmith-collections');
 const concat      = require('metalsmith-concat');
 const dateFormat  = require('metalsmith-date-formatter');
 const drafts      = require('metalsmith-drafts');
@@ -100,8 +100,8 @@ Metalsmith(__dirname)
   )
   .use(drafts())
   .use(
-    collections({
-      posts: {
+    collection({
+      post: {
         pattern: "posts/**/*.md",
         sortBy: "date",
         reverse: true
@@ -144,7 +144,7 @@ Metalsmith(__dirname)
   // Create RSS feed
   .use(
     feed({
-      collection: "posts",
+      collection: "post",
       postDescription: function(file) {
         return file.excerpt;
       }

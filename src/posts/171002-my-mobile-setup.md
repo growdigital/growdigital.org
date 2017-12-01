@@ -2,7 +2,7 @@
 title: My mobile setup
 date: 2017-10-02
 layout: post.hbs
-collections: posts
+collection: post
 draft: false
 excerpt: FWIW here’s how I set up my mobile blogging workflow
 

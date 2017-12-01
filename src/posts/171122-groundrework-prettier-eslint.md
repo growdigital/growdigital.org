@@ -2,7 +2,7 @@
 title: Reworking Groundwork 2. Prettier & ESLint
 date: 2017-11-22
 layout: post.hbs
-collections: posts
+collection: post
 excerpt: In part 2 of building a Metalsmith blog template from scratch, I look at Prettier and ESLint for making my code right and nice
 
 ---

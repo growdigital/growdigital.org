@@ -2,7 +2,7 @@
 title: Reworking Groundwork 1. semantic-release
 date: 2017-11-21
 layout: post.hbs
-collections: posts
+collection: post
 excerpt: Setup @github, @travisci installing semantic-release to automate semantic versioning for new Groundwork @metalsmithio template
 
 ---
@@ -30,3 +30,7 @@ Here’s a step-by-step guide for creating a Metalsmith blog template from scrat
     `BREAKING CHANGE: The graphiteWidth option has been removed.`
 
 Way to go, it worked for me 😁 🚀
+
+## UPDATE
+
+Well, it’s the 1st of December, and now it’s broken 😢. Not sure why, tried reinstalling. It was great fun while it lasted. I will try again in the future…

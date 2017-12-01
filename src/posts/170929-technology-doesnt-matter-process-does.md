@@ -2,7 +2,7 @@
 title: The technology doesn’t matter. The process does.
 date: 2017-09-29
 layout: post.hbs
-collections: posts
+collection: post
 draft: false
 excerpt: I don’t want to get all agnostic on your ass but really what you’re doing is more important than how you’re doing  
 
