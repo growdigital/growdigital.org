@@ -15,6 +15,12 @@ Installing the extensions is straightforward in vscode and I added them both as 
 
 I then ran the `$ eslint --init` command to install a config file locally, choosing a well-recommended [Airbnb style](https://www.npmjs.com/package/eslint-config-airbnb) without the side salad of React, in a JSON sauce.
 
-The only tricky bit is [Integrating Prettier with ESLint](https://prettier.io/docs/en/eslint.html#turn-off-eslint-s-formatting-rules), for there is a bit of overlap between formatting and linting. I went with [turning off ESLint’s formatting rules](https://prettier.io/docs/en/eslint.html#turn-off-eslint-s-formatting-rules) with a `$ npm install --save-dev eslint-config-prettier`. 
+The only tricky bit is [Integrating Prettier with ESLint](https://prettier.io/docs/en/eslint.html), for there is a bit of overlap between formatting and linting. I went with [turning off ESLint’s formatting rules](https://prettier.io/docs/en/eslint.html#turn-off-eslint-s-formatting-rules) with a `$ npm install --save-dev eslint-config-prettier`. 
 
 It’s all installed. It’s all committed. Doubtless I will be shouting at my computer ”NOT LIKE THAT” in the days to come…
+
+## UPDATE:
+
+Indeed I did start shouting at my computer, specifically not to wrap my Markdown prose. Luckily, [Ryan Zimmerman](https://github.com/RyanZim) pointed out on the [Prettier Gitter channel](https://gitter.im/jlongster/prettier) that there is a [prose wrap](https://prettier.io/docs/en/options.html#prose-wrap) setting for Markdown. 
+
+I’m also using single quotes, as that’s what all the cool kids seem to be doing, and installed a [.prettierrc.json](https://prettier.io/docs/en/configuration.html) for these options.
