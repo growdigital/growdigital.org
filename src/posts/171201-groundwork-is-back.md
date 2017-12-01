@@ -3,10 +3,12 @@ title: Groundwork is back, kind of
 excerpt: The Metalsmith blog template Groundwork is back, tidied up and easier to use.
 date: 2017-12-01
 update: 
-thumbnail: 
+thumbnail: https://farm5.staticflickr.com/4535/38766316521_d0d11910e8_m_d.jpg
 layout: post.hbs
 collection: post
 ---
+
+![Screenshot of Groundwork on npmjs.com](https://farm5.staticflickr.com/4535/38766316521_d0d11910e8_z_d.jpg)
 
 After much installing of plugins and copying of code, I’ve updated [Groundwork](https://github.com/growdigital/groundwork). 
 
