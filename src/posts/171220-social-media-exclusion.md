@@ -10,7 +10,7 @@ collection: post
 
 It’s been over week now, I can’t log in to Facebook. I get the message. 
 
-> **You can't log in at the moment**
+> **You can't log in at the moment**  
 > We'll get in touch with you shortly after we've reviewed it. You'll now be logged out of Facebook as a security precaution. 
 
 Is it because I use a [VPN](https://en.wikipedia.org/wiki/Virtual_private_network)? Is it because I am a (very small and quiet) champion of the [Independent Web](https://indieweb.org/)? Maybe it’s because I’ve made what is effectively a super private profile?
