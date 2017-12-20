@@ -8,8 +8,6 @@ layout: post.hbs
 collection: post
 ---
 
-# Onward Groundwork Metalsmith
-
 Just published the latest updates to [Groundwork](https://github.com/growdigital/groundwork), the simple Metalsmith blog template. Mostly it’s documentation, particularly tidying up documentation on the [Groundwork Rocks](https://www.groundwork.rocks) website. But as [@sonniesedge](https://twitter.com/sonniesedge) says:
 
 > [Your regular reminder that documentation written with the assumption that someone has zero knowledge of your product or system is essential.](https://twitter.com/sonniesedge/status/943069362633826305)
