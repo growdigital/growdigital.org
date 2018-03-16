@@ -20,7 +20,7 @@ Metalsmith(__dirname)
   .metadata({
     site: {
       title: "Grow Digital",
-      description: "Web design & training",
+      description: "Web design, workshops, freelance",
       url: "https://www.growdigital.org/",
       author: "Jake Rayson"
     }
