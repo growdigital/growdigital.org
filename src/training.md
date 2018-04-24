@@ -12,14 +12,14 @@ pageClass: training
 * Designed for the non-technical layperson.
 * Crammed full of advice on best practises and useful software.
 * Workshop outline:
-  1. Computer privacy (ads, trackers, passwords)
-  2. Domain name (how to register)
-  3. Email (ads, spam, privacy)
-  4. Website (WordPress & alternatives)
-  5. Content (good content & search engines)
-  6. Social media (streamline your time)
-* Date: **Friday 20th April 10am–1pm**
-* Venue: [The Coach House, St Dogmaels Abbey](http://stdogmaelsabbey.org.uk/), Pembrokeshire [SA43 3DX](https://www.openstreetmap.org/way/305512211)
+  1. Computer privacy: [protect yourself](https://en.wikipedia.org/wiki/UBlock_Origin) from trackers
+  2. Domain name: registering with [Namecheap](https://www.namecheap.com/)
+  3. Email: sign up for [Protonmail](https://protonmail.com/)
+  4. Website: using [WordPress.com](https://wordpress.com/), looking at alternatives
+  5. Content: creating good organic content
+  6. Social media: set up [Twitter](https://twitter.com/), streamline your time
+* Date: **Wednesday 23rd May 10am–1pm**
+* Venue: [Small World Theatre](http://smallworld.org.uk), Cardigan [SA43 1JY](https://www.openstreetmap.org/way/518580297)
 * Email <hello@growdigital.org> to reserve a place.
 
 ## About your tutor
