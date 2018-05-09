@@ -21,7 +21,7 @@ pageClass: training
 * Date: **Wednesday 23rd May 10am–1pm**
 * Venue: [Small World Theatre](http://smallworld.org.uk), Cardigan [SA43 1JY](https://www.openstreetmap.org/way/518580297)
 * Email <hello@growdigital.org> to reserve a place.
-* Buy tickets online, only **£15**: <smallworldweb.eventbrite.co.uk>
+* Buy tickets online, only **£15**: [smallworldweb.eventbrite.co.uk](https://smallworldweb.eventbrite.co.uk)
 
 ## About your tutor
 
