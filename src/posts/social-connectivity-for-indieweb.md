@@ -16,6 +16,6 @@ Far better to have a workflow like the hosted blogging platform [WordPress.com](
 
 <img src="https://farm1.staticflickr.com/935/43737373971_6c2304b511_z_d.jpg" alt="Screenshot of WordPress.com social network connections">
 
-Ideally, this is a service that a <abbr title="Platform as a Service">PaaS</abbr> like [Netlify](https://www.netlify.com/) could offer. But in the meantime, I would like to build my own **Cloud Native App** with pointers from the able and far more knowledgable Salman and Lewis! This is as much an opportunity to learn about cloud native and create a proof-of-concept, as well as hopefully a useful service for those interested in [IndieWeb](https://indieweb.org) independent publishing.
+Ideally, this is a service that a <abbr title="Platform as a Service">PaaS</abbr> like [Netlify](https://www.netlify.com/) could offer. But in the meantime, I would like to build my own **Cloud Native App** with pointers from the able and far more knowledgable Salman and Lewis! This is as much an opportunity to learn about cloud native and create a proof-of-concept, as well as to hopefully build a useful service for those interested in [IndieWeb](https://indieweb.org) independent publishing.
 
 In the first instance, I’ll concentrate on the big three: Facebook, Twitter and Google+. My guess it will involve a lot of [OAuth](https://en.wikipedia.org/wiki/OAuth) and a lot of form-filling. Will post updates here on this blog 🙂
