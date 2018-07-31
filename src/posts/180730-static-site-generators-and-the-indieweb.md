@@ -48,8 +48,8 @@ What we need is good push-button User Interface (no terminal or text editor requ
 
 To that end, these are some of the things what we need:
 
-1. Decent user interface for creating websites, rather like point 5 of the famous [WordPress 5 minute installation](https://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Installation).
-2. Simple social connectivity, like the [WordPress.com](https://wordpress.com/) example above, and including options for self-hosted comments like Staticman and the more ethereal [Webmentions](https://webmention.rocks/). 
+1. Decent user interface for creating (configuring) websites, rather like point 5 of the famous [WordPress 5 minute installation](https://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Installation).
+2. Simple social connectivity, like the [WordPress.com](https://wordpress.com/) example above, and including options for self-hosted comments like [Staticman](https://staticman.net/) and the more ethereal [Webmentions](https://webmention.rocks/). 
 3. User interfaces, like [Netlify CMS](https://www.netlifycms.org/), need to be responsive and work on all devices. 
 4. User interfaces/applications need to be [Progressive Web Apps](https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/), so that they can be used with limited internet connectivity (**offline**).
 5. <abbr title="Static Site Generator">SSG</abbr> templates need to be marked up with [socially aware](https://www.indiego.org.uk/social/), ie they need to be marked up with [microformats](https://en.wikipedia.org/wiki/Microformat) for social networks.
