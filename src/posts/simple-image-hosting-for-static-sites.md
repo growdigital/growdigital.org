@@ -34,7 +34,11 @@ This is a screenshot of Flickr’s size presets:
 
 <img src="https://farm1.staticflickr.com/862/43732447292_52a3297e81_z_d.jpg" alt="Screenshot of Flickrs all sizes presets">
 
-## Stack
+And here is a screenshot of the “upload low-res photo” from the iPhone:
+
+<img src="https://farm1.staticflickr.com/851/42880146375_986145ccaa_m_d.jpg" alt="Screenshot of iPhone, showing options to resize image">
+
+## Stack
 
 I have no clear idea! I was thinking of a very simple [Gatsby](https://www.gatsbyjs.org/) frontend, as it’s a [Progressive Web App](https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/) out of the box, and there are [ways to resize images in browser](http://nodeca.github.io/pica/demo/). I think it would also make sense to use React functionality for an upload indicator and resuming interrupted uploads. 
 
