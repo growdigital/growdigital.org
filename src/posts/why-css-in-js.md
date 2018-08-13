@@ -4,7 +4,7 @@ date: 2018-08-13
 layout: post.hbs
 collection: post
 draft: true
-excerpt: As a CSS frontend developer, it’s taken me a while to understand why CSS-in-JS is so popular in the ReactJS world. Now I think I know…
+excerpt: As a CSS frontend designer/developer without much ReactJS experience, it’s taken me a while to understand why CSS-in-JS is so popular in the React world. Now I think I know…
 
 ---
 
@@ -26,15 +26,14 @@ I did not understand. Thanks to the stellar work of [Nicole Sullivan](https://tw
 
 It’s easy – there are **base styles** (variables, unclassed HTML elements), **objects** (prefixed with `o-`, cosmetic-free abstractions), **components** (discrete blocks of UI) and **utilties** (high specificity, very explicit helper classes). 
 
-And then, Ethan’s words came back to me
+And then, Ethan’s words came back to me…
 
 > …artifacts that ultimately live in a broader organizational context
 
 ## Me: CSS developer / You: JS developer
 
-More from [Joel](https://mobile.twitter.com/jhooks/) about the CSS they use at [egghead.io](https://egghead.io/)
+[Brad Traversy](http://traversymedia.com/) has an excellent [Modern JavaScript From The Beginning](http://traversymedia.com/#courses) course, 
 
-> We use Tachyons, lightweight global stylesheets, and inline element specific emotion.
 
 The light bulb moment 💡. This is pretty much the same as “Modular CSS” but with less cognitive overhead:
 * [Tachyons](http://tachyons.io/) is a ready-rolled CSS kit, a super-lightweight CSS framework
