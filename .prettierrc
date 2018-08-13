@@ -1,5 +1,0 @@
-// .prettierrc
-{
-  "printWidth": 100,
-  "parser": "flow"
-}

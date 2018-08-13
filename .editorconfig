@@ -10,5 +10,8 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 
 [*.md]
-# Allow <br/> (2 spaces) from Markdown
+# Allow <br/> from Markdown
 trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tabs
