@@ -1,0 +1,28 @@
+baseURL: https://www.growdigital.org/
+languageCode: en-GB
+title: Grow Digital
+theme: gogd
+sectionPagesMenu: secondary
+pluralizeListTitles: false
+copyright: This work is dual-licensed under MIT & GPL v3
+paginate: 2
+summaryLength: 13
+author:
+  name: Jake Rayson
+  email: hello@growdigital.org
+taxonomies:
+  tag: tags
+params:
+  description: We design websites. Honestly.
+  publisher: Grow Digital
+  publisherLogo: img/logo-thumbnail.png
+  publisherLogoWidth: 220
+  publisherLogoHeight: 220
+  twitter: growdigital
+  facebook: Grow-Digital-Ltd-543388149351409
+  fbapp_id: 102596760617571
+  googleplus: 114967438358373592841
+  linkedin: grow-digital
+  wordpress: growdigital
+  email: hello@growdigital.org
+  tel: "+447398474064"
