@@ -22,7 +22,7 @@ I sent Joel an email, saying why not [Block Element Modifier](https://csswizardr
 
 I did not understand. Thanks to the stellar work of [Nicole Sullivan](https://twitter.com/stubbornella), [Jonathon Snook](https://smacss.com/), [Nicolas Gallagher](https://github.com/suitcss/), [Brad Frost](http://bradfrost.com/) and many more, we have choices of syntax and ways of conceptually and visually organising the CSS ([BEM](https://bem.info/) and [Inverted Triangle CSS](https://github.com/sonniesedge/inuitcss-guide) by [Harry Roberts](https://csswizardry.com/) being my favourites).
 
-![Inverted CSS Triangle rainbow-coloured illustration](https://www.indiego.org.uk/assets/img/inverted-css-triangle.png)
+![Inverted Code Triangle rainbow-coloured illustration](https://www.indiego.org.uk/assets/img/inverted-code-triangle.png)
 
 It’s easy:
 
