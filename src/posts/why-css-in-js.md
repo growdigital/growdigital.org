@@ -16,9 +16,7 @@ Two days previously, [Joel Hooks](https://mobile.twitter.com/jhooks/) sent a mai
 
 > CSS-in-JS means that our style sheets are written and stored in JavaScript files.
 
-I sent Joel an email, saying why not [Block Element Modifier](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) CSS and [Inverted Triangle CSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)? And he replied:
-
->  BEM made me (and the rest of the team) the saddest. 
+I sent Joel an email, saying why not [Block Element Modifier](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) CSS and [Inverted Triangle CSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)? And he said something along the lines of, BEM made him and his team sad 😞.
 
 I did not understand. Thanks to the stellar work of [Nicole Sullivan](https://twitter.com/stubbornella), [Jonathon Snook](https://smacss.com/), [Nicolas Gallagher](https://github.com/suitcss/), [Brad Frost](http://bradfrost.com/) and many more, we have choices of syntax and ways of conceptually and visually organising the CSS ([BEM](https://bem.info/) and [Inverted Triangle CSS](https://github.com/sonniesedge/inuitcss-guide) by [Harry Roberts](https://csswizardry.com/) being my favourites).
 
@@ -47,6 +45,4 @@ The light bulb moment 💡, I realised that CSS-in-JS and CSS utility frameworks
 * **Components**: eg [Emotion](https://emotion.sh/), which is CSS-in-JS specific to React components 
 * **Utilities**: eg [Tailwind](https://tailwindcss.com/docs/what-is-tailwind/) utility first CSS framework
 
-This is **component CSS in the context of JavaScript developers**, with less cognitive overhead. The last word goes to Joel:
-
-> I've got enough things to get my mind around. hah
+This is **component CSS in the context of JavaScript developers**, with less cognitive overhead. Let’s face it, with the full-stack being loaded on the frontend, JavaScript developers have enough to get their heads around without becoming CSS masters as well.
