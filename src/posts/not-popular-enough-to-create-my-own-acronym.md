@@ -33,5 +33,5 @@ But I’m uncomfortable with the term ITCSS, there’s just too much… _CSS_ in
 
 ![Homer Simpson in a pink shirt coming into work in a crowd of a people, being watched on CCTV](https://farm2.staticflickr.com/1833/43983236272_03f0d37469_o_d.jpg)
 
-As [Homer Simpson](https://en.wikipedia.org/wiki/Homer_Simpson) put it so eloquently, ”But I’m not popular enough to be different!”, I really don’t imagine being popular enough for it to catch on. At least it’s out there 🙂
+As [Homer Simpson](https://en.wikipedia.org/wiki/Homer_Simpson) put it so eloquently, ”But I’m not popular enough to be different!”, I really don’t imagine I’m popular enough for it to catch on. At least it’s out there 🙂
 
