@@ -3,7 +3,7 @@ title: But I’m not popular enough to create my own acronym!
 date: 2018-08-14
 layout: post.hbs
 collection: post
-draft: true
+draft: false
 excerpt: After rearranging all my code to fit the Inverted CSS Triangle, I decided it was time for a new acronym, ICT
 
 ---
