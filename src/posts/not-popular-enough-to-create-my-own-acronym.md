@@ -25,7 +25,7 @@ Firstly, following Lindsay’s suggestion, I put number prefixes on everything, 
 
 Secondly, **all files** follow the inverted triangle structure, including JavaScript, JPEGs, PNGs, SVGs etc. There is no `/src/assets/` directory any more…
 
-But I felt uncomfortable with the term ITCSS, there’s just too much… _CSS_ in it, which might put off JavaScript developers. So, I have thirdly decided upon a new acronym, and I give to you:
+But I’m uncomfortable with the term ITCSS, there’s just too much… _CSS_ in it, which might put off JavaScript developers. So, I have thirdly decided upon a new acronym, and I give to you:
 
 ## ICT
 
