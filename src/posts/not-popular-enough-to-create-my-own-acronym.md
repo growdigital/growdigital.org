@@ -14,7 +14,7 @@ It’s based on [Harry Robert](https://twitter.com/csswizardry)’s [Inverted Tr
 
 ![Inverted Code Triangle rainbow-coloured illustration](https://www.indiego.org.uk/assets/img/inverted-code-triangle.png)
 
-Firstly, following Lindsay’s suggestion, I put number prefixes on everything, to make it all super clear:
+Firstly, following Lindsay’s suggestion, I put [number prefixes on everything](https://github.com/growdigital/indiego/tree/master/themes/starter/src), to make it all super clear:
 
 1. Variables
 2. Base
