@@ -46,7 +46,7 @@
   /* Base variables, adapated from SUIT CSS
      ======================================================================== */
 
-  --base_font:       'Nunito Sans', sans-serif;
+  --base_font:       sans-serif;
   --base_fontsize:   18px;
   --base_lineheight: 1.5;
 
