@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/growdigital
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.growdigital.org
+  * I am growdigital (https://keybase.io/growdigital) on keybase.
+  * I have a public key with fingerprint 597C 1549 74F2 F3A5 CB9E  F3F5 9273 8B42 011D 197F
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101d5c497c9b14deb2b7c06393899de11d11c9eefe3df257fb4989ed77b90112f160a",
+      "fingerprint": "597c154974f2f3a5cb9ef3f592738b42011d197f",
+      "host": "keybase.io",
+      "key_id": "92738b42011d197f",
+      "kid": "0101d5c497c9b14deb2b7c06393899de11d11c9eefe3df257fb4989ed77b90112f160a",
+      "uid": "49082ae5c36470bb6e904b258f8aa619",
+      "username": "growdigital"
+    },
+    "service": {
+      "hostname": "www.growdigital.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1538941842,
+  "expire_in": 157680000,
+  "prev": "86862340626a2eebd4846ec88989769fd0acb9da36a9bbf6bb90f109ddbb6f63",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMIsAnicrZJ7SBRBHMdPLR8nYoFa1wvaJElEdvY9BxI9DM1IexCR0rWzM3stXrfn
+3up1iSFZSFQQRkRPNdAKqYQjiEoysaAkUpMiInrQg4oelImVYLNHQX/0Z/PPMDPf
+32e+v+9Mf0aSy51wsedB+BKcGEkYuHG61lV5RWupZ5CJo4y3nqkm8YkEMAnbvmoD
+M16GBSzAoiZAWYMICJggDskaK/GQVyDEBAAMgAYJ0QmPdU6UdSRABRIsywiyAHA6
+kFiVKWB0I+gnVsgygjbFipQHREoVdE7nVVFDkOi8LkJO5hUkcKzDhbJOC7eaYaeC
+mkNqmBQaJt2jC1/c3j/0/9l3bRwnQFbhVCJqvCTILEISgayAOFHRFVWVAHSEYWIF
+1W2Eqv2WGcGG37DVANNQwNCDOkMjTrZOM79FkUik8C9hoWn5KSVkmbapmQEq2Grb
+obDXAdjRULyCIN9vlg8ZQUwTpRV1xAobZpDxAqrUbMOBA5F2KQBF4AoYsj1kWMRn
+OApRlhSWDuceUkeRiqRIHC+wEiepHCEIC4ogEU1RaBayBHXMqvRpsMpLKkRIlxAN
+RwcsxJhmoEs843RXEzQpG1Cfqp8yw4Y/qNq1FmEa+nqrprgS3K7kqYnOV3O506b9
++YDFHamujn1ZV5dmZPNLKsjOjsDHffzu9LXPa4pz3shfuvOzavanPe3rrHL3e2aV
+5JTOaK648z6aIhaNBg62phtfG07Mubt4njykjeU9tg/db9SOzHh05kJmdtvw3K4E
+pfOz5+GH7KRXraM5fbEHWVvWayPo2ETq4KeN55pWj0X2TD8188W6y+Bsb/mCW0nR
+VdHx5e2NYPBbstD8M7/bt2QoF/fkovrBFbN78mbv6toUez3y4/q1tqM3W1xFJzf4
+7pUNNJV6Zi7agYbLSr4PlRxL6T947u0yPDmeX97wrHhemSdzeRt4/bl9fPOZvbH0
+J8cT1xxonr/yvKmU5h5+97Jy8rY/tjBY1fULtEZD3g==
+=ougm
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/growdigital
+
+==================================================================
